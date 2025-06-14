@@ -1,0 +1,424 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\Documents\\Evaluaciones ST\\semestre 3\\Programacion .NET\\Eva1_final_unidad_2\\DentAssist\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A3198F06-4C1C-4684-AF9F-6A1F7A33BAA7}|DentAssist\\DentAssist.csproj|c:\\users\\pc\\documents\\evaluaciones st\\semestre 3\\programacion .net\\eva1_final_unidad_2\\dentassist\\dentassist\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A3198F06-4C1C-4684-AF9F-6A1F7A33BAA7}|DentAssist\\DentAssist.csproj|solutionrelative:dentassist\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3198F06-4C1C-4684-AF9F-6A1F7A33BAA7}|DentAssist\\DentAssist.csproj|c:\\users\\pc\\documents\\evaluaciones st\\semestre 3\\programacion .net\\eva1_final_unidad_2\\dentassist\\dentassist\\controllers\\odontologoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3198F06-4C1C-4684-AF9F-6A1F7A33BAA7}|DentAssist\\DentAssist.csproj|solutionrelative:dentassist\\controllers\\odontologoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3198F06-4C1C-4684-AF9F-6A1F7A33BAA7}|DentAssist\\DentAssist.csproj|c:\\users\\pc\\documents\\evaluaciones st\\semestre 3\\programacion .net\\eva1_final_unidad_2\\dentassist\\dentassist\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A3198F06-4C1C-4684-AF9F-6A1F7A33BAA7}|DentAssist\\DentAssist.csproj|solutionrelative:dentassist\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3198F06-4C1C-4684-AF9F-6A1F7A33BAA7}|DentAssist\\DentAssist.csproj|c:\\users\\pc\\documents\\evaluaciones st\\semestre 3\\programacion .net\\eva1_final_unidad_2\\dentassist\\dentassist\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A3198F06-4C1C-4684-AF9F-6A1F7A33BAA7}|DentAssist\\DentAssist.csproj|solutionrelative:dentassist\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3198F06-4C1C-4684-AF9F-6A1F7A33BAA7}|DentAssist\\DentAssist.csproj|c:\\users\\pc\\documents\\evaluaciones st\\semestre 3\\programacion .net\\eva1_final_unidad_2\\dentassist\\dentassist\\controllers\\especialidadescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3198F06-4C1C-4684-AF9F-6A1F7A33BAA7}|DentAssist\\DentAssist.csproj|solutionrelative:dentassist\\controllers\\especialidadescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3198F06-4C1C-4684-AF9F-6A1F7A33BAA7}|DentAssist\\DentAssist.csproj|c:\\users\\pc\\documents\\evaluaciones st\\semestre 3\\programacion .net\\eva1_final_unidad_2\\dentassist\\dentassist\\controllers\\plantratamientoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3198F06-4C1C-4684-AF9F-6A1F7A33BAA7}|DentAssist\\DentAssist.csproj|solutionrelative:dentassist\\controllers\\plantratamientoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3198F06-4C1C-4684-AF9F-6A1F7A33BAA7}|DentAssist\\DentAssist.csproj|c:\\users\\pc\\documents\\evaluaciones st\\semestre 3\\programacion .net\\eva1_final_unidad_2\\dentassist\\dentassist\\controllers\\historialtratamientoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3198F06-4C1C-4684-AF9F-6A1F7A33BAA7}|DentAssist\\DentAssist.csproj|solutionrelative:dentassist\\controllers\\historialtratamientoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3198F06-4C1C-4684-AF9F-6A1F7A33BAA7}|DentAssist\\DentAssist.csproj|c:\\users\\pc\\documents\\evaluaciones st\\semestre 3\\programacion .net\\eva1_final_unidad_2\\dentassist\\dentassist\\controllers\\tratamientopropuestoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3198F06-4C1C-4684-AF9F-6A1F7A33BAA7}|DentAssist\\DentAssist.csproj|solutionrelative:dentassist\\controllers\\tratamientopropuestoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3198F06-4C1C-4684-AF9F-6A1F7A33BAA7}|DentAssist\\DentAssist.csproj|c:\\users\\pc\\documents\\evaluaciones st\\semestre 3\\programacion .net\\eva1_final_unidad_2\\dentassist\\dentassist\\controllers\\turnoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3198F06-4C1C-4684-AF9F-6A1F7A33BAA7}|DentAssist\\DentAssist.csproj|solutionrelative:dentassist\\controllers\\turnoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3198F06-4C1C-4684-AF9F-6A1F7A33BAA7}|DentAssist\\DentAssist.csproj|c:\\users\\pc\\documents\\evaluaciones st\\semestre 3\\programacion .net\\eva1_final_unidad_2\\dentassist\\dentassist\\controllers\\tratamientoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3198F06-4C1C-4684-AF9F-6A1F7A33BAA7}|DentAssist\\DentAssist.csproj|solutionrelative:dentassist\\controllers\\tratamientoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3198F06-4C1C-4684-AF9F-6A1F7A33BAA7}|DentAssist\\DentAssist.csproj|c:\\users\\pc\\documents\\evaluaciones st\\semestre 3\\programacion .net\\eva1_final_unidad_2\\dentassist\\dentassist\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3198F06-4C1C-4684-AF9F-6A1F7A33BAA7}|DentAssist\\DentAssist.csproj|solutionrelative:dentassist\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3198F06-4C1C-4684-AF9F-6A1F7A33BAA7}|DentAssist\\DentAssist.csproj|c:\\users\\pc\\documents\\evaluaciones st\\semestre 3\\programacion .net\\eva1_final_unidad_2\\dentassist\\dentassist\\controllers\\pacientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3198F06-4C1C-4684-AF9F-6A1F7A33BAA7}|DentAssist\\DentAssist.csproj|solutionrelative:dentassist\\controllers\\pacientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3198F06-4C1C-4684-AF9F-6A1F7A33BAA7}|DentAssist\\DentAssist.csproj|c:\\users\\pc\\documents\\evaluaciones st\\semestre 3\\programacion .net\\eva1_final_unidad_2\\dentassist\\dentassist\\models\\entities\\historialtratamiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3198F06-4C1C-4684-AF9F-6A1F7A33BAA7}|DentAssist\\DentAssist.csproj|solutionrelative:dentassist\\models\\entities\\historialtratamiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3198F06-4C1C-4684-AF9F-6A1F7A33BAA7}|DentAssist\\DentAssist.csproj|c:\\users\\pc\\documents\\evaluaciones st\\semestre 3\\programacion .net\\eva1_final_unidad_2\\dentassist\\dentassist\\models\\entities\\plantratamiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3198F06-4C1C-4684-AF9F-6A1F7A33BAA7}|DentAssist\\DentAssist.csproj|solutionrelative:dentassist\\models\\entities\\plantratamiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3198F06-4C1C-4684-AF9F-6A1F7A33BAA7}|DentAssist\\DentAssist.csproj|c:\\users\\pc\\documents\\evaluaciones st\\semestre 3\\programacion .net\\eva1_final_unidad_2\\dentassist\\dentassist\\models\\entities\\tratamientopropuesto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3198F06-4C1C-4684-AF9F-6A1F7A33BAA7}|DentAssist\\DentAssist.csproj|solutionrelative:dentassist\\models\\entities\\tratamientopropuesto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3198F06-4C1C-4684-AF9F-6A1F7A33BAA7}|DentAssist\\DentAssist.csproj|c:\\users\\pc\\documents\\evaluaciones st\\semestre 3\\programacion .net\\eva1_final_unidad_2\\dentassist\\dentassist\\models\\entities\\turno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3198F06-4C1C-4684-AF9F-6A1F7A33BAA7}|DentAssist\\DentAssist.csproj|solutionrelative:dentassist\\models\\entities\\turno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3198F06-4C1C-4684-AF9F-6A1F7A33BAA7}|DentAssist\\DentAssist.csproj|c:\\users\\pc\\documents\\evaluaciones st\\semestre 3\\programacion .net\\eva1_final_unidad_2\\dentassist\\dentassist\\models\\entities\\tratamiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3198F06-4C1C-4684-AF9F-6A1F7A33BAA7}|DentAssist\\DentAssist.csproj|solutionrelative:dentassist\\models\\entities\\tratamiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3198F06-4C1C-4684-AF9F-6A1F7A33BAA7}|DentAssist\\DentAssist.csproj|c:\\users\\pc\\documents\\evaluaciones st\\semestre 3\\programacion .net\\eva1_final_unidad_2\\dentassist\\dentassist\\models\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3198F06-4C1C-4684-AF9F-6A1F7A33BAA7}|DentAssist\\DentAssist.csproj|solutionrelative:dentassist\\models\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3198F06-4C1C-4684-AF9F-6A1F7A33BAA7}|DentAssist\\DentAssist.csproj|c:\\users\\pc\\documents\\evaluaciones st\\semestre 3\\programacion .net\\eva1_final_unidad_2\\dentassist\\dentassist\\models\\entities\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3198F06-4C1C-4684-AF9F-6A1F7A33BAA7}|DentAssist\\DentAssist.csproj|solutionrelative:dentassist\\models\\entities\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3198F06-4C1C-4684-AF9F-6A1F7A33BAA7}|DentAssist\\DentAssist.csproj|c:\\users\\pc\\documents\\evaluaciones st\\semestre 3\\programacion .net\\eva1_final_unidad_2\\dentassist\\dentassist\\models\\entities\\odontologo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3198F06-4C1C-4684-AF9F-6A1F7A33BAA7}|DentAssist\\DentAssist.csproj|solutionrelative:dentassist\\models\\entities\\odontologo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3198F06-4C1C-4684-AF9F-6A1F7A33BAA7}|DentAssist\\DentAssist.csproj|c:\\users\\pc\\documents\\evaluaciones st\\semestre 3\\programacion .net\\eva1_final_unidad_2\\dentassist\\dentassist\\models\\entities\\especialidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3198F06-4C1C-4684-AF9F-6A1F7A33BAA7}|DentAssist\\DentAssist.csproj|solutionrelative:dentassist\\models\\entities\\especialidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3198F06-4C1C-4684-AF9F-6A1F7A33BAA7}|DentAssist\\DentAssist.csproj|c:\\users\\pc\\documents\\evaluaciones st\\semestre 3\\programacion .net\\eva1_final_unidad_2\\dentassist\\dentassist\\migrations\\20250613170426_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3198F06-4C1C-4684-AF9F-6A1F7A33BAA7}|DentAssist\\DentAssist.csproj|solutionrelative:dentassist\\migrations\\20250613170426_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Documents\\Evaluaciones ST\\semestre 3\\Programacion .NET\\Eva1_unidad_2\\DentAssist\\DentAssist\\Migrations\\20250613165926_Inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3198F06-4C1C-4684-AF9F-6A1F7A33BAA7}|DentAssist\\DentAssist.csproj|c:\\users\\pc\\documents\\evaluaciones st\\semestre 3\\programacion .net\\eva1_final_unidad_2\\dentassist\\dentassist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3198F06-4C1C-4684-AF9F-6A1F7A33BAA7}|DentAssist\\DentAssist.csproj|solutionrelative:dentassist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\Evaluaciones ST\\semestre 3\\Programacion .NET\\Eva1_final_unidad_2\\DentAssist\\DentAssist\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "DentAssist\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Documents\\Evaluaciones ST\\semestre 3\\Programacion .NET\\Eva1_final_unidad_2\\DentAssist\\DentAssist\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "DentAssist\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACAAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-14T02:26:57.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EspecialidadesController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\Evaluaciones ST\\semestre 3\\Programacion .NET\\Eva1_final_unidad_2\\DentAssist\\DentAssist\\Controllers\\EspecialidadesController.cs",
+              "RelativeDocumentMoniker": "DentAssist\\Controllers\\EspecialidadesController.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\Evaluaciones ST\\semestre 3\\Programacion .NET\\Eva1_final_unidad_2\\DentAssist\\DentAssist\\Controllers\\EspecialidadesController.cs",
+              "RelativeToolTip": "DentAssist\\Controllers\\EspecialidadesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T02:07:33.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TurnosController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\Evaluaciones ST\\semestre 3\\Programacion .NET\\Eva1_final_unidad_2\\DentAssist\\DentAssist\\Controllers\\TurnosController.cs",
+              "RelativeDocumentMoniker": "DentAssist\\Controllers\\TurnosController.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\Evaluaciones ST\\semestre 3\\Programacion .NET\\Eva1_final_unidad_2\\DentAssist\\DentAssist\\Controllers\\TurnosController.cs",
+              "RelativeToolTip": "DentAssist\\Controllers\\TurnosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T02:01:56.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TratamientosController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\Evaluaciones ST\\semestre 3\\Programacion .NET\\Eva1_final_unidad_2\\DentAssist\\DentAssist\\Controllers\\TratamientosController.cs",
+              "RelativeDocumentMoniker": "DentAssist\\Controllers\\TratamientosController.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\Evaluaciones ST\\semestre 3\\Programacion .NET\\Eva1_final_unidad_2\\DentAssist\\DentAssist\\Controllers\\TratamientosController.cs",
+              "RelativeToolTip": "DentAssist\\Controllers\\TratamientosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T02:00:55.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\Evaluaciones ST\\semestre 3\\Programacion .NET\\Eva1_final_unidad_2\\DentAssist\\DentAssist\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "DentAssist\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Documents\\Evaluaciones ST\\semestre 3\\Programacion .NET\\Eva1_final_unidad_2\\DentAssist\\DentAssist\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "DentAssist\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-14T00:04:42.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\Evaluaciones ST\\semestre 3\\Programacion .NET\\Eva1_final_unidad_2\\DentAssist\\DentAssist\\appsettings.json",
+              "RelativeDocumentMoniker": "DentAssist\\appsettings.json",
+              "ToolTip": "C:\\Users\\PC\\Documents\\Evaluaciones ST\\semestre 3\\Programacion .NET\\Eva1_final_unidad_2\\DentAssist\\DentAssist\\appsettings.json",
+              "RelativeToolTip": "DentAssist\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-13T16:58:07.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OdontologosController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\Evaluaciones ST\\semestre 3\\Programacion .NET\\Eva1_final_unidad_2\\DentAssist\\DentAssist\\Controllers\\OdontologosController.cs",
+              "RelativeDocumentMoniker": "DentAssist\\Controllers\\OdontologosController.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\Evaluaciones ST\\semestre 3\\Programacion .NET\\Eva1_final_unidad_2\\DentAssist\\DentAssist\\Controllers\\OdontologosController.cs",
+              "RelativeToolTip": "DentAssist\\Controllers\\OdontologosController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T01:58:28.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TratamientoPropuestosController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\Evaluaciones ST\\semestre 3\\Programacion .NET\\Eva1_final_unidad_2\\DentAssist\\DentAssist\\Controllers\\TratamientoPropuestosController.cs",
+              "RelativeDocumentMoniker": "DentAssist\\Controllers\\TratamientoPropuestosController.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\Evaluaciones ST\\semestre 3\\Programacion .NET\\Eva1_final_unidad_2\\DentAssist\\DentAssist\\Controllers\\TratamientoPropuestosController.cs",
+              "RelativeToolTip": "DentAssist\\Controllers\\TratamientoPropuestosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T02:02:44.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HistorialTratamientosController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\Evaluaciones ST\\semestre 3\\Programacion .NET\\Eva1_final_unidad_2\\DentAssist\\DentAssist\\Controllers\\HistorialTratamientosController.cs",
+              "RelativeDocumentMoniker": "DentAssist\\Controllers\\HistorialTratamientosController.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\Evaluaciones ST\\semestre 3\\Programacion .NET\\Eva1_final_unidad_2\\DentAssist\\DentAssist\\Controllers\\HistorialTratamientosController.cs",
+              "RelativeToolTip": "DentAssist\\Controllers\\HistorialTratamientosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T02:03:50.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlanTratamientosController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\Evaluaciones ST\\semestre 3\\Programacion .NET\\Eva1_final_unidad_2\\DentAssist\\DentAssist\\Controllers\\PlanTratamientosController.cs",
+              "RelativeDocumentMoniker": "DentAssist\\Controllers\\PlanTratamientosController.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\Evaluaciones ST\\semestre 3\\Programacion .NET\\Eva1_final_unidad_2\\DentAssist\\DentAssist\\Controllers\\PlanTratamientosController.cs",
+              "RelativeToolTip": "DentAssist\\Controllers\\PlanTratamientosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T02:04:59.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\Evaluaciones ST\\semestre 3\\Programacion .NET\\Eva1_final_unidad_2\\DentAssist\\DentAssist\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "DentAssist\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\Evaluaciones ST\\semestre 3\\Programacion .NET\\Eva1_final_unidad_2\\DentAssist\\DentAssist\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "DentAssist\\Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T01:59:59.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PacientesController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\Evaluaciones ST\\semestre 3\\Programacion .NET\\Eva1_final_unidad_2\\DentAssist\\DentAssist\\Controllers\\PacientesController.cs",
+              "RelativeDocumentMoniker": "DentAssist\\Controllers\\PacientesController.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\Evaluaciones ST\\semestre 3\\Programacion .NET\\Eva1_final_unidad_2\\DentAssist\\DentAssist\\Controllers\\PacientesController.cs",
+              "RelativeToolTip": "DentAssist\\Controllers\\PacientesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T01:59:17.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PlanTratamiento.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\Evaluaciones ST\\semestre 3\\Programacion .NET\\Eva1_final_unidad_2\\DentAssist\\DentAssist\\Models\\Entities\\PlanTratamiento.cs",
+              "RelativeDocumentMoniker": "DentAssist\\Models\\Entities\\PlanTratamiento.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\Evaluaciones ST\\semestre 3\\Programacion .NET\\Eva1_final_unidad_2\\DentAssist\\DentAssist\\Models\\Entities\\PlanTratamiento.cs",
+              "RelativeToolTip": "DentAssist\\Models\\Entities\\PlanTratamiento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T23:49:00.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TratamientoPropuesto.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\Evaluaciones ST\\semestre 3\\Programacion .NET\\Eva1_final_unidad_2\\DentAssist\\DentAssist\\Models\\Entities\\TratamientoPropuesto.cs",
+              "RelativeDocumentMoniker": "DentAssist\\Models\\Entities\\TratamientoPropuesto.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\Evaluaciones ST\\semestre 3\\Programacion .NET\\Eva1_final_unidad_2\\DentAssist\\DentAssist\\Models\\Entities\\TratamientoPropuesto.cs",
+              "RelativeToolTip": "DentAssist\\Models\\Entities\\TratamientoPropuesto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T23:46:54.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Turno.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\Evaluaciones ST\\semestre 3\\Programacion .NET\\Eva1_final_unidad_2\\DentAssist\\DentAssist\\Models\\Entities\\Turno.cs",
+              "RelativeDocumentMoniker": "DentAssist\\Models\\Entities\\Turno.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\Evaluaciones ST\\semestre 3\\Programacion .NET\\Eva1_final_unidad_2\\DentAssist\\DentAssist\\Models\\Entities\\Turno.cs",
+              "RelativeToolTip": "DentAssist\\Models\\Entities\\Turno.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T23:44:52.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HistorialTratamiento.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\Evaluaciones ST\\semestre 3\\Programacion .NET\\Eva1_final_unidad_2\\DentAssist\\DentAssist\\Models\\Entities\\HistorialTratamiento.cs",
+              "RelativeDocumentMoniker": "DentAssist\\Models\\Entities\\HistorialTratamiento.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\Evaluaciones ST\\semestre 3\\Programacion .NET\\Eva1_final_unidad_2\\DentAssist\\DentAssist\\Models\\Entities\\HistorialTratamiento.cs",
+              "RelativeToolTip": "DentAssist\\Models\\Entities\\HistorialTratamiento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T23:42:25.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20250613170426_Inicial.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\Evaluaciones ST\\semestre 3\\Programacion .NET\\Eva1_final_unidad_2\\DentAssist\\DentAssist\\Migrations\\20250613170426_Inicial.cs",
+              "RelativeDocumentMoniker": "DentAssist\\Migrations\\20250613170426_Inicial.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\Evaluaciones ST\\semestre 3\\Programacion .NET\\Eva1_final_unidad_2\\DentAssist\\DentAssist\\Migrations\\20250613170426_Inicial.cs",
+              "RelativeToolTip": "DentAssist\\Migrations\\20250613170426_Inicial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T17:04:26.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Tratamiento.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\Evaluaciones ST\\semestre 3\\Programacion .NET\\Eva1_final_unidad_2\\DentAssist\\DentAssist\\Models\\Entities\\Tratamiento.cs",
+              "RelativeDocumentMoniker": "DentAssist\\Models\\Entities\\Tratamiento.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\Evaluaciones ST\\semestre 3\\Programacion .NET\\Eva1_final_unidad_2\\DentAssist\\DentAssist\\Models\\Entities\\Tratamiento.cs",
+              "RelativeToolTip": "DentAssist\\Models\\Entities\\Tratamiento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T17:01:06.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Odontologo.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\Evaluaciones ST\\semestre 3\\Programacion .NET\\Eva1_final_unidad_2\\DentAssist\\DentAssist\\Models\\Entities\\Odontologo.cs",
+              "RelativeDocumentMoniker": "DentAssist\\Models\\Entities\\Odontologo.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\Evaluaciones ST\\semestre 3\\Programacion .NET\\Eva1_final_unidad_2\\DentAssist\\DentAssist\\Models\\Entities\\Odontologo.cs",
+              "RelativeToolTip": "DentAssist\\Models\\Entities\\Odontologo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T17:00:58.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Paciente.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\Evaluaciones ST\\semestre 3\\Programacion .NET\\Eva1_final_unidad_2\\DentAssist\\DentAssist\\Models\\Entities\\Paciente.cs",
+              "RelativeDocumentMoniker": "DentAssist\\Models\\Entities\\Paciente.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\Evaluaciones ST\\semestre 3\\Programacion .NET\\Eva1_final_unidad_2\\DentAssist\\DentAssist\\Models\\Entities\\Paciente.cs",
+              "RelativeToolTip": "DentAssist\\Models\\Entities\\Paciente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T17:00:51.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Especialidad.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\Evaluaciones ST\\semestre 3\\Programacion .NET\\Eva1_final_unidad_2\\DentAssist\\DentAssist\\Models\\Entities\\Especialidad.cs",
+              "RelativeDocumentMoniker": "DentAssist\\Models\\Entities\\Especialidad.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\Evaluaciones ST\\semestre 3\\Programacion .NET\\Eva1_final_unidad_2\\DentAssist\\DentAssist\\Models\\Entities\\Especialidad.cs",
+              "RelativeToolTip": "DentAssist\\Models\\Entities\\Especialidad.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T17:00:41.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\Evaluaciones ST\\semestre 3\\Programacion .NET\\Eva1_final_unidad_2\\DentAssist\\DentAssist\\Models\\Entities\\Usuario.cs",
+              "RelativeDocumentMoniker": "DentAssist\\Models\\Entities\\Usuario.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\Evaluaciones ST\\semestre 3\\Programacion .NET\\Eva1_final_unidad_2\\DentAssist\\DentAssist\\Models\\Entities\\Usuario.cs",
+              "RelativeToolTip": "DentAssist\\Models\\Entities\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T16:59:54.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20250613165926_Inicial.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\Evaluaciones ST\\semestre 3\\Programacion .NET\\Eva1_unidad_2\\DentAssist\\DentAssist\\Migrations\\20250613165926_Inicial.cs",
+              "RelativeDocumentMoniker": "..\\..\\Eva1_unidad_2\\DentAssist\\DentAssist\\Migrations\\20250613165926_Inicial.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\Evaluaciones ST\\semestre 3\\Programacion .NET\\Eva1_unidad_2\\DentAssist\\DentAssist\\Migrations\\20250613165926_Inicial.cs",
+              "RelativeToolTip": "..\\..\\Eva1_unidad_2\\DentAssist\\DentAssist\\Migrations\\20250613165926_Inicial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T16:59:27.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\Evaluaciones ST\\semestre 3\\Programacion .NET\\Eva1_final_unidad_2\\DentAssist\\DentAssist\\Program.cs",
+              "RelativeDocumentMoniker": "DentAssist\\Program.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\Evaluaciones ST\\semestre 3\\Programacion .NET\\Eva1_final_unidad_2\\DentAssist\\DentAssist\\Program.cs",
+              "RelativeToolTip": "DentAssist\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T16:58:14.217Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

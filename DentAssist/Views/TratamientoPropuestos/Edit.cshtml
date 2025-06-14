@@ -1,0 +1,54 @@
+﻿@model DentAssist.Models.Entities.TratamientoPropuesto
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>TratamientoPropuesto</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="planId" class="control-label"></label>
+                <input asp-for="planId" class="form-control" />
+                <span asp-validation-for="planId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FechaEstimada" class="control-label"></label>
+                <input asp-for="FechaEstimada" class="form-control" />
+                <span asp-validation-for="FechaEstimada" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EstadoPeso" class="control-label"></label>
+                <input asp-for="EstadoPeso" class="form-control" />
+                <span asp-validation-for="EstadoPeso" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="OrdenSecuencia" class="control-label"></label>
+                <input asp-for="OrdenSecuencia" class="form-control" />
+                <span asp-validation-for="OrdenSecuencia" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ObservacionesPaso" class="control-label"></label>
+                <input asp-for="ObservacionesPaso" class="form-control" />
+                <span asp-validation-for="ObservacionesPaso" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
