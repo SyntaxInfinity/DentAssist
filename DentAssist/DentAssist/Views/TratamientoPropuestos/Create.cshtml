@@ -1,0 +1,68 @@
+﻿@model DentAssist.Models.Entities.TratamientoPropuesto
+
+@{
+    ViewData["Title"] = "Agregar Tratamiento Propuesto";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-sm">
+                <div class="card-header bg-primary text-white">
+                    <h4 class="mb-0">Nuevo Tratamiento Propuesto</h4>
+                </div>
+                <div class="card-body">
+                    <form asp-action="Create" method="post">
+                        <input type="hidden" asp-for="PlanId" value="@ViewBag.PlanId" />
+                        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                        <div class="mb-3">
+                            <label asp-for="TratamientoId" class="form-label fw-semibold">Tratamiento</label>
+                            <select asp-for="TratamientoId" class="form-select" asp-items="ViewBag.Tratamientos">
+                                <option value="">-- Selecciona un tratamiento --</option>
+                            </select>
+                            <span asp-validation-for="TratamientoId" class="text-danger small"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="FechaEstimada" class="form-label fw-semibold">Fecha Estimada</label>
+                            <input asp-for="FechaEstimada" type="date" class="form-control" />
+                            <span asp-validation-for="FechaEstimada" class="text-danger small"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="EstadoPaso" class="form-label fw-semibold">Estado</label>
+                            <select asp-for="EstadoPaso" class="form-select" asp-items="ViewBag.Estados">
+                                <option value="">-- Selecciona un estado --</option>
+                            </select>
+                            <span asp-validation-for="EstadoPaso" class="text-danger small"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="OrdenSecuencia" class="form-label fw-semibold">Orden en la Secuencia</label>
+                            <input asp-for="OrdenSecuencia" type="number" class="form-control" placeholder="Ej: 1, 2, 3..." />
+                            <span asp-validation-for="OrdenSecuencia" class="text-danger small"></span>
+                        </div>
+
+                        <div class="mb-4">
+                            <label asp-for="ObservacionesPaso" class="form-label fw-semibold">Observaciones</label>
+                            <textarea asp-for="ObservacionesPaso" class="form-control" rows="3" placeholder="Comentarios adicionales sobre el paso..."></textarea>
+                            <span asp-validation-for="ObservacionesPaso" class="text-danger small"></span>
+                        </div>
+
+                        <div class="d-flex justify-content-between">
+                            <button type="submit" class="btn btn-success px-4">Guardar</button>
+                            <a asp-action="Details" asp-controller="PlanTratamientos" asp-route-id="@ViewBag.PlanId" class="btn btn-outline-secondary">Cancelar</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

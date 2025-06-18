@@ -1,0 +1,132 @@
+﻿@using DentAssist.Models.Entities
+@model List<Turno>
+@{
+    ViewData["Title"] = "Panel de Administrador";
+    var tratamientos = ViewBag.TopTratamientos as dynamic;
+    var odontologos = ViewBag.Odontologos as List<Odontologo>;
+    int? selectedId = ViewBag.SelectedOdontologoId;
+}
+
+<div class="d-flex">
+    <!-- Toggle del menú solo visible en pantallas pequeñas -->
+    <button class="btn btn-primary d-md-none m-3" onclick="document.getElementById('sidebar').classList.toggle('d-none')">
+        <i class="bi bi-list"></i> Menú
+    </button>
+
+    <!-- Sidebar responsive -->
+    <div id="sidebar" class="bg-white border-end shadow-sm p-3 d-none d-md-block" style="width: 240px; min-height: 100vh;">
+        <h4 class="text-primary mb-4 text-center">Administrador</h4>
+        <ul class="nav flex-column gap-2">
+            <li class="nav-item">
+                <a class="btn btn-outline-primary w-100" asp-controller="Odontologos" asp-action="ListaOdontologos">
+                    <i class="bi bi-person-badge me-2"></i> Odontólogos
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="btn btn-outline-secondary w-100" asp-controller="Usuarios" asp-action="Index">
+                    <i class="bi bi-person-lines-fill me-2"></i> Recepcionistas
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="btn btn-outline-info w-100" asp-controller="Tratamientos" asp-action="Index">
+                    <i class="bi bi-clipboard2-pulse me-2"></i> Tratamientos
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="btn btn-outline-info w-100" asp-controller="Pacientes" asp-action="IndexAdministrador">
+                    <i class="bi bi-people-fill me-2"></i> Pacientes
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="btn btn-outline-info w-100" asp-controller="Turnos" asp-action="Index">
+                    <i class="bi bi-calendar-check me-2"></i> Turnos
+                </a>
+            </li>
+        </ul>
+    </div>
+
+
+    <div class="container-fluid p-5">
+        <h2 class="mb-4 fw-bold text-secondary">Dashboard General</h2>
+
+        <div class="mb-5">
+            <div class="card shadow-sm border-0">
+                <div class="card-header bg-primary text-white fw-semibold">
+                    Tratamientos más realizados
+                </div>
+                <ul class="list-group list-group-flush">
+                    @foreach (var t in tratamientos)
+                    {
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            @t.Nombre
+                            <span class="badge bg-primary rounded-pill">@t.Total</span>
+                        </li>
+                    }
+                </ul>
+            </div>
+        </div>
+        <div class="mb-4">
+            <form method="get" asp-action="Administrador" asp-controller="Usuarios">
+                <div class="row g-3 align-items-end">
+                    <div class="col-md-6">
+                        <label for="odontologo" class="form-label fw-semibold">Ver citas de odontólogo:</label>
+                        <select class="form-select" name="odontologoId" id="odontologo">
+                            <option value="">-- Seleccionar --</option>
+                            @foreach (var o in odontologos)
+                            {
+                                var selected = selectedId == o.Id ? "selected" : "";
+                                <option value="@o.Id" selected>@o.Nombre</option>
+                            }
+                        </select>
+                    </div>
+                    <div class="col-md-2">
+                        <button type="submit" class="btn btn-success w-100">Ver Citas</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        @if (selectedId.HasValue)
+        {
+            if (Model != null && Model.Any())
+            {
+                <div class="card shadow-sm border-0">
+                    <div class="card-header bg-info text-white fw-semibold">
+                        Citas del odontólogo seleccionado
+                    </div>
+                    <div class="table-responsive">
+                        <table class="table table-striped table-hover mb-0">
+                            <thead class="table-light">
+                                <tr>
+                                    <th>Odontólogo</th>
+                                    <th>Paciente</th>
+                                    <th>Fecha</th>
+                                    <th>Estado</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var turno in Model)
+                                {
+                                    <tr>
+                                        <td>@turno.Odontologo?.Nombre</td>
+                                        <td>@turno.Paciente?.Nombre</td>
+                                        <td>@(turno.Fecha?.ToShortDateString() ?? "Sin fecha")</td>
+                                        <td>
+                                            <span class="badge bg-secondary">@turno.Estado</span>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            }
+            else
+            {
+                <div class="alert alert-warning mt-4">
+                    Este odontólogo no tiene turnos asignados.
+                </div>
+            }
+        }
+    </div>
+</div>

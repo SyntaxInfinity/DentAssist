@@ -1,0 +1,80 @@
+﻿@using DentAssist.Models.Entities
+@model List<Turno>
+@{
+    ViewData["Title"] = "Agenda del Odontólogo";
+}
+
+<div class="d-flex">
+    <div class="bg-white border-end shadow-sm p-3" style="width: 240px; min-height: 100vh;">
+        <h4 class="text-primary mb-4 text-center">Menú</h4>
+        <ul class="nav flex-column gap-2">
+            <li class="nav-item">
+                <a class="btn btn-outline-primary w-100" asp-action="Perfil">
+                    <i class="bi bi-person-circle me-2"></i> Mi Perfil
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="btn btn-outline-secondary w-100"
+                   asp-controller="PlanTratamientos"
+                   asp-action="Create"
+                   asp-route-odontologoId="@ViewBag.OdontologoId">
+                    <i class="bi bi-file-medical me-2"></i> Crear Plan de Tratamiento
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="btn btn-outline-secondary w-100" asp-controller="PlanTratamientos" asp-action="Index">
+                    <i class="bi bi-folder2-open me-2"></i> Ver Planes de Tratamiento
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="flex-grow-1 p-5">
+        <h2 class="mb-4 fw-bold text-secondary">Citas Programadas</h2>
+
+        @if (!Model.Any())
+        {
+            <div class="alert alert-info">No hay citas programadas.</div>
+        }
+        else
+        {
+            <div class="card shadow-sm border-0">
+                <div class="table-responsive">
+                    <table class="table table-striped table-hover mb-0 align-middle">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Paciente</th>
+                                <th>Fecha</th>
+                                <th>Duración (min)</th>
+                                <th>Estado</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var turno in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        @turno.Paciente.Nombre
+                                        <a asp-action="Details" asp-controller="Pacientes" asp-route-id="@turno.PacienteId"
+                                           class="btn btn-sm btn-outline-info ms-2">
+                                            Ficha de Paciente
+                                        </a>
+                                    </td>
+                                    <td>@turno.Fecha?.ToShortDateString()</td>
+                                    <td>@turno.Duracion</td>
+                                    <td>
+                                        <span class="badge
+                                                @(turno.Estado == "Confirmado" ? "bg-success" :
+                                                turno.Estado == "Pendiente" ? "bg-warning text-dark" :
+                                                turno.Estado == "Cancelado" ? "bg-danger" : "bg-secondary")">
+                                                @turno.Estado
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        }
+    </div>
+</div>

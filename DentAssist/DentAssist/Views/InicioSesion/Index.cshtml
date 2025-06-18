@@ -1,0 +1,42 @@
+﻿@{
+    ViewData["Title"] = "Iniciar Sesión";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-5">
+            <div class="card shadow-sm border-0">
+                <div class="card-header bg-primary text-white text-center">
+                    <h4 class="mb-0"><i class="bi bi-box-arrow-in-right me-2"></i>Iniciar Sesión</h4>
+                </div>
+                <div class="card-body">
+                    <form method="post">
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Correo Electrónico</label>
+                            <input name="email" id="email" class="form-control" required placeholder="usuario@ejemplo.com" />
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Contraseña</label>
+                            <input name="password" id="password" type="password" class="form-control" required placeholder="••••••••" />
+                        </div>
+
+                        @if (ViewBag.Error != null)
+                        {
+                            <div class="alert alert-danger text-center">
+                                <i class="bi bi-exclamation-triangle-fill me-1"></i> @ViewBag.Error
+                            </div>
+                        }
+
+                        <button type="submit" class="btn btn-success w-100">
+                            <i class="bi bi-door-open me-1"></i> Iniciar sesión
+                        </button>
+                    </form>
+                </div>
+                <div class="card-footer text-center text-muted small">
+                    <span>© 2025 DentAssist</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

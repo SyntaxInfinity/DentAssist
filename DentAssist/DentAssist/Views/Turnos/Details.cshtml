@@ -1,0 +1,40 @@
+﻿@using DentAssist.Models.Entities
+@model Turno
+
+@{
+    ViewData["Title"] = "Detalles del Turno";
+}
+
+<div class="container mt-4">
+    <div class="card shadow-sm">
+        <div class="card-header bg-info text-white">
+            <h4 class="mb-0"><i class="bi bi-calendar-event"></i> Detalles del Turno</h4>
+        </div>
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-3">Fecha</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Fecha)</dd>
+
+                <dt class="col-sm-3">Duración (min)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Duracion)</dd>
+
+                <dt class="col-sm-3">Estado</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Estado)</dd>
+
+                <dt class="col-sm-3">Paciente</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Paciente.Nombre)</dd>
+
+                <dt class="col-sm-3">Odontólogo</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Odontologo.Nombre)</dd>
+            </dl>
+        </div>
+        <div class="card-footer bg-light d-flex justify-content-between">
+            <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-outline-primary">
+                <i class="bi bi-pencil-square"></i> Editar
+            </a>
+            <a asp-action="Index" class="btn btn-secondary">
+                <i class="bi bi-arrow-left-circle"></i> Volver
+            </a>
+        </div>
+    </div>
+</div>

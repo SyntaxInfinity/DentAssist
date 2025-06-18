@@ -1,0 +1,265 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = DentAssist
+build_property.RootNamespace = DentAssist
+build_property.ProjectDir = C:\Users\PC\Documents\Evaluaciones ST\semestre 3\Programacion .NET\Eva1_final_unidad_2\DentAssist\DentAssist\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\PC\Documents\Evaluaciones ST\semestre 3\Programacion .NET\Eva1_final_unidad_2\DentAssist\DentAssist
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/Especialidades/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXNwZWNpYWxpZGFkZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/Especialidades/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXNwZWNpYWxpZGFkZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/Especialidades/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXNwZWNpYWxpZGFkZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/Especialidades/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXNwZWNpYWxpZGFkZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/Especialidades/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXNwZWNpYWxpZGFkZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/HistorialTratamientos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlzdG9yaWFsVHJhdGFtaWVudG9zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/HistorialTratamientos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlzdG9yaWFsVHJhdGFtaWVudG9zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/HistorialTratamientos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlzdG9yaWFsVHJhdGFtaWVudG9zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/HistorialTratamientos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlzdG9yaWFsVHJhdGFtaWVudG9zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/HistorialTratamientos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlzdG9yaWFsVHJhdGFtaWVudG9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/InicioSesion/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5pY2lvU2VzaW9uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/Odontologos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2RvbnRvbG9nb3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/Odontologos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2RvbnRvbG9nb3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/Odontologos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2RvbnRvbG9nb3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/Odontologos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2RvbnRvbG9nb3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/Odontologos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2RvbnRvbG9nb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/Odontologos/ListaOdontologos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2RvbnRvbG9nb3NcTGlzdGFPZG9udG9sb2dvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/Odontologos/Perfil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2RvbnRvbG9nb3NcUGVyZmlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/Pacientes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/Pacientes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/Pacientes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/Pacientes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/Pacientes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/Pacientes/IndexAdministrador.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVzXEluZGV4QWRtaW5pc3RyYWRvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/Pacientes/Perfil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVzXFBlcmZpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/PlanTratamientos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhblRyYXRhbWllbnRvc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/PlanTratamientos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhblRyYXRhbWllbnRvc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/PlanTratamientos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhblRyYXRhbWllbnRvc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/PlanTratamientos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhblRyYXRhbWllbnRvc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/PlanTratamientos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhblRyYXRhbWllbnRvc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/TratamientoPropuestos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhdGFtaWVudG9Qcm9wdWVzdG9zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/TratamientoPropuestos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhdGFtaWVudG9Qcm9wdWVzdG9zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/TratamientoPropuestos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhdGFtaWVudG9Qcm9wdWVzdG9zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/TratamientoPropuestos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhdGFtaWVudG9Qcm9wdWVzdG9zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/TratamientoPropuestos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhdGFtaWVudG9Qcm9wdWVzdG9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/Tratamientos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhdGFtaWVudG9zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/Tratamientos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhdGFtaWVudG9zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/Tratamientos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhdGFtaWVudG9zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/Tratamientos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhdGFtaWVudG9zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/Tratamientos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhdGFtaWVudG9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/Turnos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVybm9zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/Turnos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVybm9zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/Turnos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVybm9zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/Turnos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVybm9zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/Turnos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVybm9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/Usuarios/Administrador.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcQWRtaW5pc3RyYWRvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/Usuarios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/Usuarios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/Usuarios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/Usuarios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/Usuarios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/Usuarios/Recepcionista.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcUmVjZXBjaW9uaXN0YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/Evaluaciones ST/semestre 3/Programacion .NET/Eva1_final_unidad_2/DentAssist/DentAssist/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-e67xd6pjlq

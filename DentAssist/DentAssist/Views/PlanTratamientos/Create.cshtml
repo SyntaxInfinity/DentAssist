@@ -1,0 +1,60 @@
+﻿@model DentAssist.Models.Entities.PlanTratamiento
+
+@{
+    ViewData["Title"] = "Crear Plan de Tratamiento";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+            <div class="card shadow-sm">
+                <div class="card-header bg-primary text-white">
+                    <h4 class="mb-0">Nuevo Plan de Tratamiento</h4>
+                </div>
+                <div class="card-body">
+                    <form asp-action="Create" method="post" novalidate>
+                        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                        <div class="mb-3">
+                            <label asp-for="PacienteId" class="form-label fw-semibold">Paciente</label>
+                            <select asp-for="PacienteId" class="form-select" asp-items="ViewBag.Pacientes">
+                                <option value="">-- Seleccione un Paciente --</option>
+                            </select>
+                            <span asp-validation-for="PacienteId" class="text-danger small"></span>
+                        </div>
+
+                        <input type="hidden" asp-for="OdontologoId" />
+
+                        <div class="mb-3">
+                            <label class="form-label fw-semibold">Odontólogo</label>
+                            <input class="form-control" value="@ViewBag.NombreOdontologo" readonly />
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="FechaCreacion" class="form-label fw-semibold">Fecha de Creación</label>
+                            <input asp-for="FechaCreacion" type="date" class="form-control" />
+                            <span asp-validation-for="FechaCreacion" class="text-danger small"></span>
+                        </div>
+
+                        <div class="mb-4">
+                            <label asp-for="ObservacionesGenerales" class="form-label fw-semibold">Observaciones Generales</label>
+                            <input asp-for="ObservacionesGenerales" class="form-control" placeholder="Ingrese observaciones" />
+                            <span asp-validation-for="ObservacionesGenerales" class="text-danger small"></span>
+                        </div>
+
+                        <div class="d-flex justify-content-between">
+                            <button type="submit" class="btn btn-success px-4">Guardar</button>
+                            <a asp-controller="Odontologos" asp-action="Index" asp-route-odontologoId="@Model.OdontologoId" class="btn btn-outline-secondary">Cancelar</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

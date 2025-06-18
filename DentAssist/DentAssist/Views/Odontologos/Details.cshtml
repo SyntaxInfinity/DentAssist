@@ -1,0 +1,39 @@
+﻿@model DentAssist.Models.Entities.Odontologo
+
+@{
+    ViewData["Title"] = "Detalles del Odontólogo";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-lg border-0">
+                <div class="card-header bg-info text-white">
+                    <h4 class="mb-0">Detalles del Odontólogo</h4>
+                </div>
+                <div class="card-body">
+                    <dl class="row">
+                        <dt class="col-sm-4">Nombre</dt>
+                        <dd class="col-sm-8">@Model.Nombre</dd>
+
+                        <dt class="col-sm-4">Matrícula</dt>
+                        <dd class="col-sm-8">@Model.Matricula</dd>
+
+                        <dt class="col-sm-4">Email</dt>
+                        <dd class="col-sm-8">@Model.Email</dd>
+
+                        <dt class="col-sm-4">Especialidad</dt>
+                        <dd class="col-sm-8">@Html.DisplayFor(model => model.Nombre)</dd>
+
+                        <dt class="col-sm-4">Contraseña</dt>
+                        <dd class="col-sm-8 text-muted">••••••••</dd>
+                    </dl>
+                </div>
+                <div class="card-footer d-flex justify-content-between">
+                    <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-outline-primary">Editar</a>
+                    <a asp-controller="Odontologos" asp-action="ListaOdontologos" class="btn btn-secondary">Volver a la lista</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
