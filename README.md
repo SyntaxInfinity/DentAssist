@@ -45,7 +45,24 @@ Odontólogo: odontologo@dentassist.cl / Odontologo123!
 Inserts base de datos credenciales de prueba
 los siguientes inserts son para poder ejecutarlos en la base de datos y almacenar las credenciales de prueba
 
-este insert va en la tabla de usuarios
+el primer insert a ejecutar es este en la tabla de especialidades, ya que, de no ser así no hará la relación con las especialidades
+USE [DentAssist]
+GO
+
+INSERT INTO [dbo].[especialidades]
+           ([NombreEspecialidad])
+     VALUES
+           ('Odontología General'),
+           ('Ortodoncia'),
+           ('Endodoncia'),
+           ('Periodoncia'),
+           ('Odontopediatría'),
+           ('Cirugía Oral'),
+           ('Prótesis Dental')
+GO
+
+
+segundo insert va en la tabla de usuarios
 USE [DentAssist]
 GO
 
@@ -59,7 +76,7 @@ INSERT INTO [dbo].[usuarios]
 		   ('Recepcionista', 'recepcion@dentassist.cl', 'Recepcion123', 'Recepcionista')
 GO
 
-el siguiente insert va en la tabla de odontologos
+tecer insert va en la tabla de odontologos
 USE [DentAssist]
 GO
 
