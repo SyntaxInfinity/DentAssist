@@ -42,8 +42,38 @@ Recepcionista: recepcion@dentassist.cl / Recepcion123!
 
 Odontólogo: odontologo@dentassist.cl / Odontologo123!
 
+Inserts base de datos credenciales de prueba
+los siguientes inserts son para poder ejecutarlos en la base de datos y almacenar las credenciales de prueba
+
+este insert va en la tabla de usuarios
+USE [DentAssist]
+GO
+
+INSERT INTO [dbo].[usuarios]
+           ([Nombre]
+           ,[Correo]
+           ,[Password]
+           ,[Rol])
+     VALUES
+           ('Administrador', 'admin@dentassist.cl', 'Admin123', 'Administrador'),
+		   ('Recepcionista', 'recepcion@dentassist.cl', 'Recepcion123', 'Recepcionista')
+GO
+
+el siguiente insert va en la tabla de odontologos
+USE [DentAssist]
+GO
+
+INSERT INTO [dbo].[odontologos]
+           ([Nombre]
+           ,[Matricula]
+           ,[Email]
+           ,[Password]
+           ,[EspecialidadId])
+     VALUES
+           ('Odontologo', 'CD-45678', 'odontologo@dentassist.cl', 'Odontologo123', 1)
+GO
+
 Funcionalidades por rol
-Rol	Funcionalidades principales
 Administrador	Gestión de odontólogos y tratamientos
 Recepcionista	Agenda de turnos y administración de pacientes
 Odontólogo	Consulta de agenda y creación de planes de tratamiento
