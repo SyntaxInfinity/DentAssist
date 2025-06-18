@@ -62,7 +62,7 @@ INSERT INTO [dbo].[especialidades]
 GO
 
 
-segundo insert va en la tabla de usuarios
+el segundo insert va en la tabla de usuarios
 USE [DentAssist]
 GO
 
@@ -76,7 +76,7 @@ INSERT INTO [dbo].[usuarios]
 		   ('Recepcionista', 'recepcion@dentassist.cl', 'Recepcion123', 'Recepcionista')
 GO
 
-tecer insert va en la tabla de odontologos
+el tercer insert va en la tabla de odontologos
 USE [DentAssist]
 GO
 
